@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[demo]]></title>
+      <url>http://yoursite.com/2017/03/27/demo/</url>
+      <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" alt=""></p>
+<p>测试只用</p>
+<a id="more"></a>
+<link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
+
+<p></p><h3 class="text-center">直播利用http&amp;m3u8</h3><p></p>
+<video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://117.158.206.60:9080/live/test.m3u8" type="application/x-mpegURL"><br></video>
+
+
+<p></p><h3 id="wss" class="text-center">点播</h3><p></p>
+<p><video id="really-cool-video" class="kumuvideo video-js center-block vjs-default-skin vjs-big-play-centered " controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4" type="video/mp4"><br></video><br><br></p>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/video.js/5.13.2/video.min.js"></script>
+<script src="http://cdn.bootcss.com/video.js/5.18.0/video-js.swf"></script>
+<script type="text/javascript">
+    var kumu = $('article').width();
+    var kumuw = parseInt(kumu * 0.9);
+    var kumuh = parseInt(kumu * 0.6);
+    $('.kumuvideo').css("width",kumuw.toString());
+    $('.kumuvideo').css("height",kumuh.toString());
+</script>]]></content>
+      
+        
+        <tags>
+            
+            <tag> video </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>http://yoursite.com/2017/03/27/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
